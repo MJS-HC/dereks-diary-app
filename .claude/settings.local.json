@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/ClaudeCode/Dereks Diary App\" && find . -maxdepth 1 -type f \\\\\\( -name \"*.zip\" -o -name \"*.html\" -o -name \"*.md\" \\\\\\) | head -20)",
+      "PowerShell(Expand-Archive -Path \"C:\\\\ClaudeCode\\\\Dereks Diary App\\\\derek-notepad-netlify - toggle undated in alerts.zip\" -DestinationPath \"C:\\\\ClaudeCode\\\\Dereks Diary App\\\\extracted\" -Force)"
+    ]
+  }
+}
